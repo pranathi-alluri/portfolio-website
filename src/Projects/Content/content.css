@@ -1,0 +1,10 @@
+.project-btn {
+    background-color: #bc6c25;
+    color: #283618;
+    margin-bottom: 5px;
+    border: 0px;
+}
+
+.project-btn:hover {
+    background-color: #dda15e;
+}

@@ -1,0 +1,95 @@
+.card-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+@media (max-width: 767px) {
+    .card-cont .body-cont{
+        height: auto !important;
+        margin-bottom: 2rem;
+    }
+
+    .card {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .card-cont .body-cont {
+        height: 150px !important;
+        margin-bottom: 2rem;
+    }
+}
+
+
+
+.card-cont .card {
+    flex:1;
+    background-color: #fefae0;
+    color: #606c38;
+}
+
+.card-cont .body-cont {
+    height: 16rem;
+}
+
+.card-text {
+    color: #283618;
+}
+
+.card-img-cont {
+    width: 100%;
+    height: 200px;
+}
+
+.card-img-cont .card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-bottom: #283618 1.5px solid;
+    background-color: white;
+}
+
+.btn-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-card {
+    justify-content: center;
+    background-color: #606c38;
+    border: 0px;
+}
+
+.btn-card:hover {
+    background-color: #283618;
+}
+.embed-responsive {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.embed-responsive-item {
+    width: 500px;
+    height: 300px;
+}
+
+.mediaStyles {
+    padding: 1rem;
+    text-align: center;
+}
+
+.contentButtons {
+    background-color: #606c38;
+    margin: 5px;
+    color: #fefae0;
+}
+
+.contentButtons:hover {
+    background-color: #dda15e;
+}
+
+.btn-secondary:hover {
+    background-color: #bc6c25;
+}

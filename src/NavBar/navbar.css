@@ -1,0 +1,32 @@
+.navbar {
+    background-color: #606c38;
+}
+
+.logo-img {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+}
+
+.navbar-toggler {
+    color: #283618;
+    object-fit: cover;
+}
+
+.nav-item .nav-link {
+    font-size: 1.25em;
+    color: #283618;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    color: #dda15e;
+    transition: color 0.3s;
+}
+
+.nav-link.active{
+    color: #dda15e !important;
+}
+
+
+

@@ -1,0 +1,62 @@
+.mainContent {
+    height: 100vh;
+    background-color: #606c38;
+    overflow: hidden;
+    padding-top: 10rem;
+    color: #283618;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    line-height: 3rem;
+}
+
+@media (max-width: 600px) {
+    .mainContent{
+        height: initial;
+        font-size: smaller;
+        line-height: 2.5rem;
+        padding-bottom: 10rem;
+    }
+}
+
+.hello {
+    font-weight: bold;
+    font-size: 4em;
+    padding-bottom: 0px;
+}
+
+.homeHeader {
+    font-weight: bold;
+    font-size: 4em;
+    padding-top: 0px;
+}
+
+.homeName {
+    color: #fefae0;
+}
+.homeSubheader {
+    font-size: 2em;
+}
+
+.profile {
+    border: 1px solid #283618;
+    background-color: #dda15e;
+    border-radius: 25%;
+    height: 28rem;
+}
+
+.img-logo {
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.resume-btn{
+    background-color: #bc6c25;
+    border-radius: 10px;
+    border: 0;
+    color:#283618;
+}
+
+.resume-btn:hover {
+    background-color: #fefae0;
+}
+

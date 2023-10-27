@@ -1,0 +1,22 @@
+.contact-section {
+    background-color: #fefae0;
+    padding: 3rem;
+    text-align: center;
+
+}
+
+.contactTitle {
+    font-weight: bold;
+    font-size: 3em;
+    color: #606c38;
+}
+
+.contactContent {
+    color: #283618;
+    font-size: 1.1rem;
+}
+
+.contactLink {
+    color: #dda15e;
+}
+

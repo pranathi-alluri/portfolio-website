@@ -1,0 +1,28 @@
+.projectNav {
+    margin: 2rem;
+    border-bottom-color: #dda15e;
+}
+
+.project-item {
+    border: 1px solid #fefae0;
+    margin-left: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-color: #bc6c25;
+    border-bottom-color: #dda15e;
+}
+
+.project-item .nav-link {
+    color: #fefae0;
+}
+
+.project-item .nav-link:hover {
+    color: #283618;
+    border: 0 !important;
+}
+
+.project-item .nav-link .active-selection {
+    color: #fefae0 !important;
+}
+
+

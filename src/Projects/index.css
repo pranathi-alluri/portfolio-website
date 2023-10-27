@@ -1,0 +1,17 @@
+.projectsSection {
+    background-color: #283618;
+    padding: 3.5rem;
+    text-align: center;
+
+}
+
+.projectTitle {
+    font-weight: bold;
+    font-size: 3em;
+    color: #dda15e;
+}
+
+.projectContent {
+    color: #fefae0;
+    font-size: 1.1rem;
+}
